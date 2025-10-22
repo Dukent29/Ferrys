@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "fees": {
+    "currency": "EUR",
+    "baseAdult": 50,
+    "baseChild": 30,
+    "infant": 0,
+    "pet": 10,
+    "vehicle": 20,
+    "seat": 15,
+    "insurance": 10,
+    "methodSurcharges": {
+      "CAR": 0,
+      "HCR": 5,
+      "TRK": 15,
+      "BUS": 20
+    }
+  }
+}

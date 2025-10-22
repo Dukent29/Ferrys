@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "methods": [
+    { "code": "CAR", "label": "Voiture standard", "lengthMin": 0, "lengthMax": 6, "addLength": false },
+    { "code": "HCR", "label": "Voiture avec coffre", "lengthMin": 0, "lengthMax": 7, "addLength": true, "addHeight": true },
+    { "code": "TRK", "label": "Truck", "lengthMin": 7, "lengthMax": 12, "addLength": true },
+    { "code": "BUS", "label": "Bus", "lengthMin": 12, "lengthMax": 15, "addLength": true },
+    { "code": "INV", "label": "Invalid Method", "lengthMin": -1, "lengthMax": -1, "addLength": false }
+  ]
+}

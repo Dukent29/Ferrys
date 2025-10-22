@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "sailings": [
+    {
+      "sailingId": "BFT-20251020-001",
+      "supplierId": "BFT",
+      "departPort": "CAEN",
+      "arrivePort": "PORS",
+      "departTime": "2025-10-20T08:30:00+02:00",
+      "arriveTime": "2025-10-20T11:00:00+02:00",
+      "durationMinutes": 150,
+      "vessel": "Blue Star 3",
+      "onBoardFacilities": ["cafe", "wifi", "pets_allowed"]
+    },
+    {
+      "sailingId": "POT-20251021-002",
+      "supplierId": "POT",
+      "departPort": "DOVER",
+      "arrivePort": "CALAIS",
+      "departTime": "2025-10-21T10:00:00+01:00",
+      "arriveTime": "2025-10-21T12:30:00+01:00",
+      "durationMinutes": 150,
+      "vessel": "Ocean Breeze",
+      "onBoardFacilities": ["restaurant", "wifi"]
+    },
+    {
+      "sailingId": "SEA-20251022-003",
+      "supplierId": "SEA",
+      "departPort": "NYC",
+      "arrivePort": "BOS",
+      "departTime": "2025-10-22T07:00:00-04:00",
+      "arriveTime": "2025-10-22T11:00:00-04:00",
+      "durationMinutes": 240,
+      "vessel": "Atlantic Voyager",
+      "onBoardFacilities": ["bar", "wifi", "entertainment"]
+    },
+    {
+      "sailingId": "ERR-20251023-004",
+      "supplierId": "ERR",
+      "departPort": "",
+      "arrivePort": "",
+      "departTime": "",
+      "arriveTime": "",
+      "durationMinutes": 0,
+      "vessel": "",
+      "onBoardFacilities": []
+    }
+  ]
+}

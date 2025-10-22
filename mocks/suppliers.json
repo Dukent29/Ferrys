@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "suppliers": [
+    { "supplierId": "BFT", "name": "BlueFerry Trans", "country": "FR" },
+    { "supplierId": "POT", "name": "PortOcean Lines", "country": "UK" },
+    { "supplierId": "SEA", "name": "SeaLink Ferries", "country": "US" },
+    { "supplierId": "OCE", "name": "Oceanic Voyages", "country": "AU" },
+    { "supplierId": "ERR", "name": "", "country": "" }  
+  ]
+}

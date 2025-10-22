@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    /* Language & Environment */
+    "target": "ES2020",               
+    "module": "commonjs",             
+    "lib": ["ES2020"],                
+    "esModuleInterop": true,          
+    "skipLibCheck": true,             
+
+    /* Project Structure */
+    "rootDir": "src",                 
+    "outDir": "dist",                 
+
+    /* Type Checking */
+    "strict": true,                   
+    "noUncheckedIndexedAccess": true, 
+    "exactOptionalPropertyTypes": true,
+
+    /* Source Maps & Declarations */
+    "sourceMap": true,                
+    "declaration": false,             
+
+    /* Node.js types */
+    "types": ["node"]                 
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

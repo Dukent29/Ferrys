@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "cabins": [
+    { "code": "INSIDE", "label": "Inside Cabin", "capacity": 4, "price": 40 },
+    { "code": "OUTSIDE", "label": "Outside Cabin", "capacity": 4, "price": 60 },
+    { "code": "SUITE", "label": "Suite", "capacity": 4, "price": 120 }
+  ]
+}
