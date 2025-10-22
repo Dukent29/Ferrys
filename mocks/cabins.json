@@ -1,8 +1,10 @@
 {
   "success": true,
   "cabins": [
-    { "code": "INSIDE", "label": "Inside Cabin", "capacity": 4, "price": 40 },
-    { "code": "OUTSIDE", "label": "Outside Cabin", "capacity": 4, "price": 60 },
-    { "code": "SUITE", "label": "Suite", "capacity": 4, "price": 120 }
+    { "code": "SHARED_8", "label": "Shared Cabin (8 places)", "capacity": 8, "price": 35, "features": ["1 bed", "1 chair", "shared restroom"] },
+    { "code": "SHARED_4", "label": "Shared Cabin (4 places)", "capacity": 4, "price": 55, "features": ["1 bed", "1 chair", "shared restroom"] },
+    { "code": "SHARED_2", "label": "Shared Cabin (2 places)", "capacity": 2, "price": 75, "features": ["1 bed", "1 chair", "shared restroom"] },
+    { "code": "INSIDE",   "label": "Inside Cabin (private)",  "capacity": 4, "price": 90, "features": ["2 beds", "table & 2 chairs", "private restroom"] },
+    { "code": "OUTSIDE",  "label": "Outside Cabin (private)", "capacity": 4, "price": 120, "features": ["2 beds", "window", "private restroom"] }
   ]
 }

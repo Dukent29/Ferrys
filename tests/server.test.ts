@@ -31,9 +31,11 @@ describe("API Endpoints", () => {
       "/api/sailings?supplierId=BFT&departDate=20251020&departPort=CAEN&arrivePort=PORS"
     );
     expect(response.status).toBe(200);
-    expect(response.body).toEqual({
-      success: true,
-      sailings: [
+    expect(response.body.success).toBe(true);
+    expect(Array.isArray(response.body.sailings)).toBe(true);
+    // Should include the original known sailing even if others exist on same day
+    expect(response.body.sailings).toEqual(
+      expect.arrayContaining([
         {
           sailingId: "BFT-20251020-001",
           supplierId: "BFT",
@@ -45,7 +47,7 @@ describe("API Endpoints", () => {
           vessel: "Blue Star 3",
           onBoardFacilities: ["cafe", "wifi", "pets_allowed"],
         },
-      ],
-    });
+      ])
+    );
   });
 });

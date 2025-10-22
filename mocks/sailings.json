@@ -13,6 +13,39 @@
       "onBoardFacilities": ["cafe", "wifi", "pets_allowed"]
     },
     {
+      "sailingId": "BFT-20251020-002",
+      "supplierId": "BFT",
+      "departPort": "CAEN",
+      "arrivePort": "PORS",
+      "departTime": "2025-10-20T14:00:00+02:00",
+      "arriveTime": "2025-10-20T16:30:00+02:00",
+      "durationMinutes": 150,
+      "vessel": "Blue Star 4",
+      "onBoardFacilities": ["cafe", "wifi"]
+    },
+    {
+      "sailingId": "ABC-20251020-003",
+      "supplierId": "ABC",
+      "departPort": "CAEN",
+      "arrivePort": "PORS",
+      "departTime": "2025-10-20T09:00:00+02:00",
+      "arriveTime": "2025-10-20T11:30:00+02:00",
+      "durationMinutes": 150,
+      "vessel": "Normandy Express",
+      "onBoardFacilities": ["wifi"]
+    },
+    {
+      "sailingId": "BFT-20251020-004",
+      "supplierId": "BFT",
+      "departPort": "PORS",
+      "arrivePort": "CAEN",
+      "departTime": "2025-10-20T17:00:00+02:00",
+      "arriveTime": "2025-10-20T19:30:00+02:00",
+      "durationMinutes": 150,
+      "vessel": "Blue Star 3",
+      "onBoardFacilities": ["cafe", "wifi", "pets_allowed"]
+    },
+    {
       "sailingId": "POT-20251021-002",
       "supplierId": "POT",
       "departPort": "DOVER",
@@ -24,12 +57,67 @@
       "onBoardFacilities": ["restaurant", "wifi"]
     },
     {
+      "sailingId": "POT-20251021-005",
+      "supplierId": "POT",
+      "departPort": "DOVER",
+      "arrivePort": "CALAIS",
+      "departTime": "2025-10-21T06:30:00+01:00",
+      "arriveTime": "2025-10-21T09:00:00+01:00",
+      "durationMinutes": 150,
+      "vessel": "Channel Runner",
+      "onBoardFacilities": ["cafe"]
+    },
+    {
+      "sailingId": "NRD-20251021-006",
+      "supplierId": "NRD",
+      "departPort": "DOVER",
+      "arrivePort": "CALAIS",
+      "departTime": "2025-10-21T11:00:00+01:00",
+      "arriveTime": "2025-10-21T13:30:00+01:00",
+      "durationMinutes": 150,
+      "vessel": "Nordic Wave",
+      "onBoardFacilities": ["wifi", "bar"]
+    },
+    {
+      "sailingId": "POT-20251021-007",
+      "supplierId": "POT",
+      "departPort": "CALAIS",
+      "arrivePort": "DOVER",
+      "departTime": "2025-10-21T15:00:00+01:00",
+      "arriveTime": "2025-10-21T17:30:00+01:00",
+      "durationMinutes": 150,
+      "vessel": "Ocean Breeze",
+      "onBoardFacilities": ["restaurant", "wifi"]
+    },
+    {
       "sailingId": "SEA-20251022-003",
       "supplierId": "SEA",
       "departPort": "NYC",
       "arrivePort": "BOS",
       "departTime": "2025-10-22T07:00:00-04:00",
       "arriveTime": "2025-10-22T11:00:00-04:00",
+      "durationMinutes": 240,
+      "vessel": "Atlantic Voyager",
+      "onBoardFacilities": ["bar", "wifi", "entertainment"]
+    },
+    {
+      "sailingId": "SEA-20251022-008",
+      "supplierId": "SEA",
+      "departPort": "NYC",
+      "arrivePort": "BOS",
+      "departTime": "2025-10-22T12:00:00-04:00",
+      "arriveTime": "2025-10-22T16:00:00-04:00",
+      "durationMinutes": 240,
+      "vessel": "Atlantic Voyager",
+      "onBoardFacilities": ["bar", "wifi"]
+    },
+    {
+      "sailingId": "SEA-20251022-009",
+      "supplierId": "SEA",
+      "departPort": "BOS",
+      "arrivePort": "NYC",
+      "departTime": "2025-10-22T18:00:00-04:00",
+      "arriveTime": "2025-10-22T22:00:00-04:00",
       "durationMinutes": 240,
       "vessel": "Atlantic Voyager",
       "onBoardFacilities": ["bar", "wifi", "entertainment"]
