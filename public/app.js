@@ -1,4 +1,4 @@
-﻿// Minimal SPA for ferry search -> results -> details -> passengers -> payment
+﻿// Minimal SPA for Recherche de ferry -> results -> details -> passengers -> payment
 
 const state = {
   search: {
@@ -549,7 +549,7 @@ function renderSearchUX(){
   app.innerHTML = `
     <div class="container">
       <div class="card">
-        <div class="header"><h2>Ferry Search</h2><span class="muted">Demo</span></div>
+        <div class="header"><h2>Recherche de ferry</h2><span class="muted">Démo</span></div>
         <div class="tabs">
           <input type="radio" id="oneWay" name="tripType" value="oneway" ${state.search.direction === 'oneway' ? 'checked' : ''}>
           <label for="oneWay">One way</label>
@@ -681,3 +681,5 @@ window.addEventListener('DOMContentLoaded', async ()=>{
   await loadRoutes();
   render();
 });
+
+
